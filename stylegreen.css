@@ -1,0 +1,127 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+.navbar {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-left: 60px;
+}
+.ops {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ops p {
+  margin: 20px;
+}
+.content {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 60px;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.content .paragraph {
+  /* border: 2px solid black; */
+  width: 50%;
+}
+
+.content .paragraph .starbucks {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.content .paragraph .starbucks a {
+  font-weight: 900;
+  color: #0a7042;
+  font-size: 50px;
+}
+.content .paragraph button {
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 700;
+  color: white;
+  background-color: #0a7042;
+  border: #0a7042;
+  font-size: 15px;
+}
+
+.content .coffee-image {
+  position: relative;
+  left: 180px;
+  bottom: 30px;
+}
+
+.content .coffee-image img {
+  height: 400px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.green {
+  background-color: #0a7042;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(600px at right 700px);
+  z-index: -1;
+}
+
+.social-media {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  font-size: 30px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 30px;
+}
+.social-media i {
+  margin-bottom: 30px;
+  color: white;
+  transition: 0.7s;
+}
+
+.social-media i:hover {
+  color: #333;
+}
+.coffee-ops {
+  width: 90%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 20px;
+  position: absolute;
+  align-items: flex-end;
+}
+.coffee-ops .green-ops a img {
+  height: 80px;
+  transition: 0.4s linear;
+  margin-left: 50px;
+}
+
+.coffee-ops .green-ops a img:hover {
+  margin-bottom: 40px;
+}
